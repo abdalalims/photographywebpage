@@ -23,6 +23,7 @@ body {
 	align-items: center;
 	gap: 30px;
 	flex-wrap: wrap;
+	padding: 10px;
 }
 .containertop {
 	display: flex;
