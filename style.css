@@ -38,6 +38,10 @@ img {
 .item {
 	width: 50%;
 }
+.itemcenter {
+	text-align: center;
+	width: 50%;
+}
 .itemtop {
 	width: 50%;
 	height: 50%;
