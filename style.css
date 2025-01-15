@@ -110,3 +110,8 @@ img {
 	object-fit: cover;
 	border-radius: 10px;
 }
+
+footer {
+	padding: 10px;
+	text-align: center;
+}
