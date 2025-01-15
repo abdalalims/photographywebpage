@@ -74,11 +74,11 @@ li:hover {
 }
 
 li.home {
-	font-size: 24px;
+	font-size: 28px;
 	color: black;
 }
 li.home:hover a{
-	font-size: 38px;
+	font-size: 34px;
 }
 li a{
 	transition: font-size 0.3s ease-in-out;
@@ -86,7 +86,7 @@ li a{
 li:hover a {
 	color: white;
 	transition: font-size 0.3s ;
-	font-size: 32px;
+	font-size: 28px;
 	width: max-content;
 	height: max-content;
 }
