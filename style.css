@@ -78,7 +78,7 @@ li.home {
 	color: black;
 }
 li.home:hover a{
-	font-size: 34px;
+	font-size: 30px;
 }
 li a{
 	transition: font-size 0.3s ease-in-out;
@@ -86,7 +86,7 @@ li a{
 li:hover a {
 	color: white;
 	transition: font-size 0.3s ;
-	font-size: 28px;
+	font-size: 24px;
 	width: max-content;
 	height: max-content;
 }
@@ -114,4 +114,13 @@ img {
 footer {
 	padding: 10px;
 	text-align: center;
+}
+
+.buttons {
+	padding: 10px;
+	font-size: 32px;
+	margin-bottom: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
+	border: 2px solid black;
 }
