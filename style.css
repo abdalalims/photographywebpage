@@ -75,7 +75,7 @@ li.home {
 	color: black;
 }
 li.home:hover a{
-	font-size: 22px;
+	font-size: 24px;
 }
 li a{
 	transition: font-size 0.3s ease-in-out;
