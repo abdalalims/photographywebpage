@@ -50,7 +50,7 @@ img {
 ul {
 	display: flex;
 	list-style: none;
-	font-size: 20px;
+	font-size: 18px;
 	flex-direction: row-reverse;
 	font-weight: bold;
 	justify-content: center;
@@ -71,11 +71,11 @@ li:hover {
 }
 
 li.home {
-	font-size: 28px;
+	font-size: 22px;
 	color: black;
 }
 li.home:hover a{
-	font-size: 30px;
+	font-size: 22px;
 }
 li a{
 	transition: font-size 0.3s ease-in-out;
@@ -83,7 +83,7 @@ li a{
 li:hover a {
 	color: white;
 	transition: font-size 0.3s ;
-	font-size: 24px;
+	font-size: 20px;
 	width: max-content;
 	height: max-content;
 }
