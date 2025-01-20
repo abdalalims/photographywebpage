@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: "Inter Tight", serif;
+ 	font-optical-sizing: auto;
+  	font-style: normal;
+}
+.main {
+	padding-left: 10%;
+	padding-right: 0%;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.containerpics {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+.containertop {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+img {
+	height: 33%;
+}
+.item {
+	width: 50%;
+}
+.itemcenter {
+	text-align: center;
+	width: 50%;
+}
+.itemtop {
+	width: 50%;
+	height: 50%;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	font-size: 18px;
+	flex-direction: row-reverse;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+li {
+	padding: 20px;
+	border: 2px solid black;
+	margin: 2px;
+	transition: background-color 0.3s ease, color 0.3s ease, font-size 0.3s ease; /* Transition for font size */
+	border-radius: 10px;
+}
+
+li:hover {
+	background-color: black;
+	transition: 0.3s;
+	color: white;
+}
+
+li.home {
+	font-size: 22px;
+	color: black;
+}
+li.home:hover a{
+	font-size: 24px;
+}
+li a{
+	transition: font-size 0.3s ease-in-out;
+}
+li:hover a {
+	color: white;
+	transition: font-size 0.3s ;
+	font-size: 20px;
+	width: max-content;
+	height: max-content;
+}
+li.home:hover {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: white;
+}
+
+img {
+	max-width: 30%;
+	height: auto;
+	flex: 1;
+	border: 2px solid black;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+}
+
+.buttons {
+	padding: 10px;
+	font-size: 32px;
+	margin-bottom: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
+	border: 2px solid black;
+}
